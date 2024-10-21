@@ -25,6 +25,10 @@
             location = "group:HandyHelpers"
             name = "HandyHelpers">
             <FileSystemSynchronizedGroup
+               location = "group:Modifier"
+               name = "Modifier">
+            </FileSystemSynchronizedGroup>
+            <FileSystemSynchronizedGroup
                location = "group:Extensions"
                name = "Extensions">
             </FileSystemSynchronizedGroup>
