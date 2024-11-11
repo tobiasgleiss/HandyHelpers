@@ -7,6 +7,7 @@
 
 public extension String {
     
+    /// Returns an empty `String`
     static var empty: String { return "" }
     
 }

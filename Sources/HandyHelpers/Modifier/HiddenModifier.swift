@@ -9,14 +9,15 @@ import SwiftUI
 
 @available(iOS 17.0, *)
 @available(macOS 14.0, *)
-extension View {
+
+public extension View {
     
     /// Hide or show the view based on a boolean value.
     /// - Parameters:
     ///   - isHidden: Boolean value indicating whether or not to hide the view
     ///   - andRemoved: Boolean value indicating whether or not to remove the view (view must also be hidden to be removed)
     /// - Returns: The given view shown or hidden/removed.
-    @discardableResult func hidden(_ isHidden: Bool, andRemoved: Bool = false) -> some View {
+    @discardableResult public func hidden(_ isHidden: Bool, andRemoved: Bool = false) -> some View {
         modifier(HiddenModifier(isHidden: isHidden, andRemoved: andRemoved))
     }
     
