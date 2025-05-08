@@ -9,5 +9,8 @@ public extension Optional {
 
     /// Returns a boolean value indicating if the `Optional` is `nil`
     var isNil: Bool { self == nil }
+    
+    /// Returns a boolean value indicating if the `Optional` is not `nil`
+    var isNotNil: Bool { self != nil }
 
 }
